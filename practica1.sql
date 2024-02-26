@@ -19,3 +19,7 @@ create table arbol (
     PRIMARY KEY(id_arbol))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4;
+
+
+insert into arbol(nombre_comun, nombre_cientifico, region, altura, ruta_imagen)
+select 'Cerezo Silvestre', 'Prunus avium', 'Europa y el occidente asiático', 30, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/S%C3%BC%C3%9Fkirsche_Prunus_avium.jpg/220px-S%C3%BC%C3%9Fkirsche_Prunus_avium.jpg'
