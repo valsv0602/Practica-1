@@ -5,7 +5,6 @@ drop user if exists usuario_practica;
 create database practica; 
 create user 'usuario_practica'@'%' identified by 'la_Clave';
 
-/*Se asignan los prvilegios sobr ela base de datos TechShop al usuario creado */
 grant all privileges on practica.* to 'usuario_practica'@'%';
 flush privileges;
 use practica;
